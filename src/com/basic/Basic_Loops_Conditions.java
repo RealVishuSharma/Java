@@ -1,3 +1,5 @@
+package com.basic;
+
 import java.util.Scanner;
 
 public class Basic_Loops_Conditions {
@@ -15,7 +17,7 @@ public class Basic_Loops_Conditions {
 
         // While loop
         while ( i != 5) {
-            System.out.println("The Value of is (Using while loop): " + i);
+            System.out.println("The Value of  i is (Using while loop): " + i);
              i++;
         }
 

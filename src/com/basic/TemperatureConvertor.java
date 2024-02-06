@@ -1,3 +1,5 @@
+package com.basic;
+
 import java.util.Scanner;
 
 public class TemperatureConvertor {
@@ -9,5 +11,6 @@ public class TemperatureConvertor {
 
         float tempF = (tempC * 9/5)  + 32;
         System.out.println("The " + tempC + "*C in Fahrenheit is: " + tempF);
+        input.close();
     }
 }

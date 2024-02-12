@@ -4,7 +4,15 @@ import java.util.Scanner;
 
 public class FunctionsUse {
     public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        //
         sum();
+        //
+        System.out.println("Please Enter your name: ");
+        String naam = input.nextLine();
+        String message = greet(naam);
+        System.out.println(message);
+
     }
 
     static void sum() {
@@ -17,5 +25,11 @@ public class FunctionsUse {
 
         int add = num1 + num2;
         System.out.println("The Sum is: " + add);
+    }
+
+    // Returning same datatype as  of  functions
+
+    static  String greet(String name) {
+        return "How are you, " + name + "!";
     }
 }

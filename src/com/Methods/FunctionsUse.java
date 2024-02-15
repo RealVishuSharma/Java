@@ -29,7 +29,8 @@ public class FunctionsUse {
 
     // Returning same datatype as  of  functions
 
-    static  String greet(String name) {
+    static String greet(String name) {
         return "How are you, " + name + "!";
     }
+
 }

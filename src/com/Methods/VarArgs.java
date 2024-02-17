@@ -8,10 +8,10 @@ import java.util.Arrays;
 public class VarArgs {
     public static void main(String[] args) {
 
-        fun(5,8,75,78,45,85,4,8,6,9,1);
+        fun(5, 8, 75, 78, 45, 85, 4, 8, 6, 9, 1);
     }
 
-    static void fun(int...num) {
+    static void fun(int... num) {
         System.out.println(Arrays.toString(num));
     }
 }

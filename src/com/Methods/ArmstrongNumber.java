@@ -34,7 +34,7 @@ public class ArmstrongNumber {
             sum += digit;
             n = n / 10;
         }
-//        System.out.println(sum);
+
         return sum == ans;
     }
 

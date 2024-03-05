@@ -29,6 +29,24 @@ public class SearchingIn2dArray {
             System.out.println(Arrays.toString(show));
         }
 
+        int[] output = search(matrix, element);
+        System.out.println("The element is present at the index: " + Arrays.toString(output));
+    }
+
+    static int[] search(int[][] arr,  int element) {
+        if (arr.length == 0) {
+            return new int[]{-1};
+        }
+
+        for (int row = 0; row < arr.length; row++) {
+            for (int col = 0; col < arr[row].length; col++) {
+                if (arr[row][col] == element) {
+
+                    return new int[]{row, col};
+                }
+            }
+        }
+        return new int[]{-1};
     }
 
 }

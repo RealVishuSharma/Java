@@ -24,7 +24,7 @@ public class CeilingValue {
         System.out.println(Arrays.toString(array));
 
         int output = Search(array, element);
-        System.out.println("The Ceiling Value of the Given Element is: " + output);
+        System.out.println("The Ceiling Value of the Given Element is at index : " + output);
 
     }
 
@@ -32,6 +32,10 @@ public class CeilingValue {
         int start = 0;
         int end = arr.length - 1;
         int mid = 0;
+
+        if (target > arr[arr.length - 1]) {
+            return -1;
+        }
 
         while (start <= end) {
             mid = start + (end - start) / 2;
@@ -44,6 +48,6 @@ public class CeilingValue {
                 return mid;
             }
         }
-        return arr[mid + 1];
+        return start;
     }
 }

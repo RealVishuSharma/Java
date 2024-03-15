@@ -39,13 +39,16 @@ public class SmallestLetter {
             } else if (target > arr[mid]) {
                 start = mid + 1;
             }else {
-                if (mid == target) {
+                if (arr[mid] == target) {
                     return arr[mid + 1];
+                } else if (target == arr[arr.length - 1]) {
+                    return arr[0];
                 }
             }
         }
 
 
-        return arr[0];
+        char n = 0;
+        return n;
     }
 }

@@ -8,5 +8,7 @@ public class StringInJava {
 
         String name = input.next();
 
+        System.out.println(name);
+
     }
 }

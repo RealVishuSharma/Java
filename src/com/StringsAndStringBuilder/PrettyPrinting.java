@@ -10,5 +10,8 @@ public class PrettyPrinting {
         System.out.println();
         System.out.printf("Hello my name is %s and I am %s", "Vishu", "Curious");
 
+
+        // The %s or %f are called format specifiers, there are various types of format Specifiers
+        // Search on the internet.
     }
 }

@@ -10,5 +10,7 @@ public class StringInJava {
 
         System.out.println(name);
 
+
+        // Strings are Immutable array of characters, works on the concept of String Polling.
     }
 }

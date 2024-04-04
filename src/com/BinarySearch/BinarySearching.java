@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 // Binary Searching for Sorted Arrays only (Ascending or Descending).
 
-public class BinarySearching {
+public class    BinarySearching {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 

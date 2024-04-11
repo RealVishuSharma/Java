@@ -1,4 +1,4 @@
-package com.BubbleSort;
+package com.SortingAlgos;
 
 import java.util.Arrays;
 import java.util.Scanner;

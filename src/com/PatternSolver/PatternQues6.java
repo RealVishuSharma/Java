@@ -14,24 +14,24 @@ public class PatternQues6 {
 
     static void Pattern6(int a) {
         for (int i = 0; i < a; i++) {
-            if (i < a /2) {
-                for (int j = 0; j < i - 1; j++) {
+            if (i <= a /2) {
+                for (int j = 1; j < a - i + 1; j++) {
                     System.out.print(" ");
                 }
 
-                for (int j = 0; j < a - i + 1; j++) {
+                for (int j = 1; j <= i - 1; j++) {
                     System.out.print("* ");
                 }
                 System.out.println();
             }
 
             if (i >= a / 2) {
-                for (int j = 0; j < i - 1; j++) {
-                    System.out.print("* ");
+                for (int j = 1; j <= i - 1; j++) {
+                    System.out.print(" ");
                 }
 
-                for (int j = 0; j < a - i + 1; j++) {
-                    System.out.println(" ");
+                for (int j = 1; j < a - i + 1; j++) {
+                    System.out.print("* ");
                 }
 
                 System.out.println();

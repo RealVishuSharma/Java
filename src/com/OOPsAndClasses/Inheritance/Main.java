@@ -12,11 +12,23 @@ public class Main{
 //        int height = input.nextInt();
 
         Box first = new Box();
-        BoxWeight weight = new BoxWeight(5.6);
         System.out.println(first.length + " " + first.width + " " + first.height);
-        System.out.println();
-        System.out.println(weight.width + " " + weight.weight);
+
+        BoxWeight second = new BoxWeight(5.6);
+        System.out.println(second.width + " " + second.weight);
+
+        BoxPrice third = new BoxPrice(5,8,6, 2.5, 8.6);
+        System.out.println(third.height + " " + third .weight + " " + third.cost);
+
     }
 
 
 }
+
+// Types of Inheritance
+
+// Single Inheritance
+// Multi-level Inheritance
+// Multiple Inheritance
+// Hierarchical Inheritance
+//Hybrid Inheritance
